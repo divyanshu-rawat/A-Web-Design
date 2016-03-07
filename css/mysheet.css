@@ -1,0 +1,92 @@
+
+.row-header
+{
+    margin: 0px auto;
+    padding: 0px auto;
+}
+.row-content
+{
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+
+.row-footer
+{
+    background-color: #AfAfAf;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.jumbotron
+{
+    padding: 70px 30px 70px 30px;
+    margin: 0px auto;
+    background: #7986CB;
+    color: floralwhite;    
+}
+
+address
+{
+        font-size: 90%;
+        margin: 0px;
+        color:#0f0f0f;
+}
+
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}
+    
+.navbar-inverse {
+     background: #303F9F;
+}
+.navbar-inverse .navbar-nav > .active > a
+{
+    color: #fff;
+    background: #1a237e;
+}
+.navbar-inverse .navbar-nav > .active > a:hover
+{
+    color: #fff;
+    background: #1a237e;
+}
+.navbar-inverse .navbar-nav > .active > a:focus
+{
+    color: #fff;
+    background: #1a237e;
+}
+.navbar-inverse .navbar-nav > .open > a:hover
+{
+    color: #fff;
+    background: #1a237e;
+}
+.navbar-inverse .navbar-nav > .open > a
+{
+    color: #fff;
+    background: #1a237e;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu> li >a
+{
+        background-color:#1a237e;
+        color:deepskyblue;
+}
+
+.navbar-inverse .navbar-nav > .open > a:hover
+{
+    color: #fff;
+    background: #1a237e;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu> li> a:hover {
+    color:#000000;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu .dropdown-header
+{
+    color: black;
+    font-weight: bolder;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu
+{
+    background-color:#1a237e;
+}
