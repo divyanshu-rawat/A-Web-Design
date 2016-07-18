@@ -1,7 +1,7 @@
 # Website-design
 
 A responsive Design!
-Set up, designed and style a web page using Bootstrap and its components.
+Set up, designed and style a web page using Front-End Web UI Frameworks and Tools.
 PageSpeed Insights(web performance tools at Google) Score - 91/100
 
 Technologies Used:-
