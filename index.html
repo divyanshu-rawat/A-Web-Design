@@ -2,13 +2,13 @@
 <html lang="en">
 
 <head>
-   <meta charset="utf-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <meta http-equiv="Content-Type" cntent="text/html; charset=windows252">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" cntent="text/html; charset=windows252">
 
 
-   <title>a template</title>
+    <title>A template</title>
 
     <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
@@ -22,332 +22,321 @@
 
 
 <body>
-   <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-               <span class="sr-only">Toggle navigation</span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-            </button>
-         </div>
-         <div id="navbar" class="navbar-collapse collpase">
-            <ul class="nav navbar-nav">
-               <li class="active"><a href="index.html">
-               <span class="glyphicon glyphicon-home " aria-hidden="true"></span>Home</a>
-               </li>
-               <li id="#">
-               <a href="aboutus.html"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> About</a></li>
-               <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                  <i class="fa fa-bell"></i> Menu <span class="caret"></span></a>
-                  <ul class="dropdown-menu">  
-                     <li><a href="#">Appetizers</a></li>
-                     <li><a href="#">Main Courses</a></li>
-                     <li><a href="#">Desserts</a></li>
-                     <li><a href="#">Drinks</a></li>
-                     <li role="separator" class="divider"></li>
-                     <li class="dropdown-header">Specials</li>
-                     <li><a href="#">Lunch Buffet</a></li>
-                     <li><a href="#">Weekend Brunch</a></li>
-                  </ul>   
-               </li>
-               <li><a href="contact.html"><i class="fa fa-envelope-o"></i> Contact</a></li>
-            </ul>
-             <ul class="nav navbar-nav navbar-right">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="navbar" class="navbar-collapse collpase">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="index.html">
+                            <span class="glyphicon glyphicon-home " aria-hidden="true"></span>Home</a>
+                    </li>
+                    <li id="#">
+                        <a href="aboutus.html"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> About</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-bell"></i> Menu <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Appetizers</a>
+                            </li>
+                            <li><a href="#">Main Courses</a>
+                            </li>
+                            <li><a href="#">Desserts</a>
+                            </li>
+                            <li><a href="#">Drinks</a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li class="dropdown-header">Specials</li>
+                            <li><a href="#">Lunch Buffet</a>
+                            </li>
+                            <li><a href="#">Weekend Brunch</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html"><i class="fa fa-envelope-o"></i> Contact</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
                     <li>
-                    <a data-toggle="modal" data-target="#loginModal" href="#">
-                    <span class="glyphicon glyphicon-log-in"></span> Login</a>
+                        <a data-toggle="modal" data-target="#loginModal" href="#">
+                            <span class="glyphicon glyphicon-log-in"></span> Login</a>
                     </li>
                 </ul>
 
-      </div>     
-      </div>
-   </nav>
+            </div>
+        </div>
+    </nav>
+
     <div id="loginModal" class="modal fade" role="dialog">
         <div class="modal-dialog">
-        <!-- Modal content-->
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Login </h4>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Login </h4>
+                </div>
+                <div class="modal-body">
+                    <form class="form-inline" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Email">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Password">
+                                <label class="checkbox-inline">
+                                    <input type="checkbox" id="checkbox"><strong>Remember me</strong>
+                                </label>
+                                <button type="submit" class="btn btn-info">Sign in</button>
+                                <button type="button" class="btn btn-primary btn-md" data-dismiss="modal">Cancel</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
-            <div class="modal-body">
-             <form class="form-inline" role="search">
-                  <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Email">
-                  <div class="form-group">
-                  <input type="text" class="form-control"                                         placeholder="Password">          
-                 <label class="checkbox-inline"><input type="checkbox"                             id="checkbox"><strong>Remember me</strong></label>
-                <button type="submit" class="btn btn-info">Sign in</button>  
-                    <button type="button" class="btn btn-primary btn-md"
-                       data-dismiss="modal">Cancel</button>
-                      </div>
-                  </div>
-            </form>
-            </div>
-        </div>
         </div>
     </div>
-     <div id="loginModal1" class="modal fade" role="dialog">
+
+    <div id="loginModal1" class="modal fade" role="dialog">
         <div class="modal-dialog">
-        <!-- Modal content-->
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Reserve Table </h4>
-            </div>
-            <div class="modal-body">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Reserve Table </h4>
+                </div>
+                <div class="modal-body">
 
-             <form class="form-horizontal" role="form" id="hyperlink">
-            <div class="form-group">
-            <label for="guest" class="col-sm-2">
-                Number of Guests
-                </label>
-                <div class="col-sm-1">
-        <label><input type="radio" name="optradio"> 1</label>
+                    <form class="form-horizontal" role="form" id="hyperlink">
+                        <div class="form-group">
+                            <label for="guest" class="col-sm-2">
+                                Number of Guests
+                            </label>
+                            <div class="col-sm-1">
+                                <label>
+                                    <input type="radio" name="optradio"> 1</label>
+                            </div>
+                            <div class="col-sm-1">
+                                <label>
+                                    <input type="radio" name="optradio"> 2</label>
+                            </div>
+                            <div class="col-sm-1">
+                                <label>
+                                    <input type="radio" name="optradio"> 3</label>
+                            </div>
+                            <div class="col-sm-1">
+                                <label>
+                                    <input type="radio" name="optradio"> 4</label>
+                            </div>
+                            <div class="col-sm-1">
+                                <label>
+                                    <input type="radio" name="optradio"> 5</label>
+                            </div>
+                            <div class="col-sm-1">
+                                <label>
+                                    <input type="radio" name="optradio"> 6</label>
+                            </div>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="dt" class="col-sm-2">Date and Time</label>
+                            <div class="form-group has-feedback">
+                                <div class="col-sm-3">
+                                    <input type="text" class="form-control" placeholder="Date">
+                                    <span class="glyphicon glyphicon-calendar form-control-feedback" aria-hidden="true"></span>
+                                </div>
+                                <div class="col-sm-3">
+                                    <input type="text" class="form-control" placeholder="Time">
+                                    <span class="glyphicon glyphicon-time form-control-feedback" aria-hidden="true"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2">Section</label>
+                            <div class="form-group has-feedback">
+                                <div class="col-sm-6">
+                                    <div class="btn-group" data-toggle="buttons">
+                                        <label class="btn btn-success active">
+                                            <input type="checkbox" autocomplete="off" checked> Non-Smoking
+                                        </label>
+                                        <label class="btn btn-danger ">
+                                            <input type="checkbox" autocomplete="off"> Smoking
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-12 col-sm-offset-2 ">
+                                <button type="submit" class="btn btn-info">Reserve</button>
+                                <button type="button" class="btn btn-primary btn-md" data-dismiss="modal">Cancel</button>
+                            </div>
+
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-10">
+
+                                <div class="alert alert-warning alert-dismissible" role="alert">
+                                    <button type="button" class="close" data-dismiss="alert" aria- label="Close"><span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <strong>Warning!</strong> Please
+                                    <a href="tel:+8003856439"> <strong>Call</strong>
+                                    </a> us to reserve for more than six guests.
+                                </div>
+                            </div>
+                        </div>
+                    </form>
                 </div>
-                <div class="col-sm-1">
-        <label><input type="radio" name="optradio"> 2</label>
-                </div>
-                <div class="col-sm-1">
-              <label><input type="radio" name="optradio"> 3</label>
-                </div>
-                <div class="col-sm-1">
-        <label><input type="radio" name="optradio"> 4</label>
-                </div>
-                <div class="col-sm-1">
-                <label><input type="radio" name="optradio"> 5</label>
-                </div>
-                    <div class="col-sm-1">
-        <label><input type="radio" name="optradio"> 6</label>            
-                </div>
-                </div>
-               
-            
-            <div class="form-group">    
-             <label for="dt" class="col-sm-2">Date and Time</label>
-            <div class="form-group has-feedback">
-            <div class="col-sm-3">
-            <input type="text" class="form-control" placeholder="Date">
-            <span class="glyphicon glyphicon-calendar form-control-feedback"                  aria-hidden="true"></span>
-            </div>    
-            <div class="col-sm-3">    
-            <input type="text" class="form-control"                            placeholder="Time">
-             <span class="glyphicon glyphicon-time form-control-feedback" aria-hidden="true"></span>    
             </div>
-            </div>
-            </div>
-             <div class="form-group">
-            <label class="col-sm-2">Section</label>
-            <div class="form-group has-feedback">
-                <div class="col-sm-6">
-                <div class="btn-group" data-toggle="buttons">
-              <label class="btn btn-success active">
-              <input type="checkbox" autocomplete="off" checked> Non-Smoking
-                </label>
-              <label class="btn btn-danger ">
-            <input type="checkbox" autocomplete="off"> Smoking
-              </label>
-                </div> 
-                </div>       
-            </div>
-            </div>    
-            <div class="form-group">    
-            <div class="col-sm-12 col-sm-offset-2 ">
-                    <button type="submit" class="btn btn-info">Reserve</button>  
-                    <button type="button" class="btn btn-primary btn-md"
-                       data-dismiss="modal">Cancel</button>
-            </div>
-            
-            </div>
-            <div class="form-group">    
-            <div class="col-sm-10">
-                
-            <div class="alert alert-warning alert-dismissible"                          role="alert">
-            <button type="button" class="close" data-dismiss="alert" aria-             label="Close"><span aria-hidden="true">&times;</span></button>
-            <strong>Warning!</strong> Please<a href="tel:+8003856439"> <strong>Call</strong></a> us to reserve for more                than six guests.
-            </div>    
-            </div>    
-            </div>    
-            </form>
+        </div>
+    </div>
+
+    <div class="jumbotron ">
+
+        <div class="container col-lg-12">
+  
+            <div class="col-lg-offset-10 col-lg-2 col-sm-2 col-md-2" style="margin-top:40%;">
+
+                <a type="button" class="btn btn-primary btn-block" id="button" data-toggle="modal" data-target="#loginModal1">
+                    Reserve Table </a>
             </div>
         </div>
         </div>
     </div>
-   <header class="jumbotron row-header">
 
-      <!-- Main component for a primary marketing message or call to action -->
+    <div class="container">
+        <div class="row row-content">
+            <div class="col-xs-12">
+                <div id="mycarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#mycarousel" data-slide-to="1"></li>
+                        <li data-target="#mycarousel" data-slide-to="2"></li>
+                    </ol>
 
-      <div class="container">
-         <div class="row row-header">
-            <div class="col-xs-12 col-sm-7">
-               <h3 style="color:white; font-weight:bold; opacity:.8"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"> A sample restaurant template @divyanshu</h3>
-                <p style="padding:40px;"></p>
-                    <h3 id="sample">We take inspiration from the World's best cuisines, "Amazing ambience and excellent food and services."</h3>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item">
+
+                            <div class="carousel-caption">
+                                <h2> Twin Cities pizza  <span class="label label-danger" style="background:red; border-radius:20px; font-size:18px; color:black">Hot</span> <span class="badge">$4.99</span></h2>
+                                <p>Authentic Twin Cities pizzas (pizza Twin Cities) are typically made with tomatoes and Mozzarella cheese, topped with Cerignola olives, ripe vine corn syrup solids, sodium caseinate (a milk derivative), mono and diglycerides, potassium bromate and enzymes.</p>
+
+                            </div>
+                        </div>
+                        <div class="item">
+
+                            <div class="carousel-caption">
+                                <h2>Weekend time! <span class="label label-default">New</span></h2>
+
+                                <p>Featuring mouthwatering combinations Our salad recipes are a delicious and healthy use different ingredients and seasoning to make one of the most joyous healthy salad recipes. All for just $19.99 per person. </p>
+
+                            </div>
+                        </div>
+                        <div class="item active">
+
+                            <div class="carousel-caption">
+                                <h2 class="media-heading">Clark Frasier</h2>
+                                <h4>Executive Chef</h4>
+                                <p>Award winning three-star Michelin chef After being nominated six times, divyanshu and Clark Frasier won the James Beard Award for Best Chef in the Northeast in 2010.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                    <div class="btn-group" id="carouselButtons">
+                        <button class="btn btn-default btn-xs" id="carousel-pause">
+                            <span class="glyphicon glyphicon-pause" aria-hidden="true"></span>
+                        </button>
+                        <button class="btn btn-default btn-xs" id="carousel-play">
+                            <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+                        </button>
+                    </div>
+                </div>
+
             </div>
-           <!-- <div>
+        </div>
+        <div class="row row-content">
+            <div class="col-xs-12 col-sm-3 col-sm-push-9">
                 <p style="padding:20px;"></p>
+                <h3 align="center">Our Christmas Special!</h3>
             </div>
-                <div class="col-md-4 col-sm-4 col-lg-4 col-xs-12" style="border:2px;">
-               <div class="nav navbar-nav" style="padding: 20px 10px;position:relative;top:600px;left:250px;">
-                 <ul class="list-inline social-buttons">
-                  <li id="special"><a class="btn btn-social-icon btn-google-plus" href="http://google.com/+"><i class="fa fa-google-plus"></i></a></li>
-                  <li><a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a></li>
-                  <li><a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a></li>
-                 <li> <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a></li>
-                  <li><a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a></li>
-                    </ul>
-               </div>
-            </div>!-->
-                    
-                </div>
-             <div class="col-sm-2 col-md-2" >
-             <p style="padding:10px;"></p>
-             <a type="button" class="btn btn-primary btn-block" id="button"
-             data-toggle="modal" data-target="#loginModal1">
-                    Reserve Table</a>
-            </div>
-         </div>
-      </div>
-   </header>
-
-   <div class="container">
-     <div class="row row-content">
-    <div class="col-xs-12" >
-            <div id="mycarousel" class="carousel slide" data-ride="carousel"
-                  >
-                   <ol class="carousel-indicators">
-                    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#mycarousel" data-slide-to="1"></li>
-                    <li data-target="#mycarousel" data-slide-to="2"></li>
-                </ol>
-                   
-                     <div class="carousel-inner" role="listbox">
-                    <div class="item">
-                        
-                        <div class="carousel-caption">
-                        <h2> Twin Cities pizza  <span class="label label-danger" style="background:red; border-radius:20px; font-size:18px; color:black">Hot</span> <span class="badge">$4.99</span></h2>
-                        <p>Authentic Twin Cities pizzas (pizza Twin Cities) are typically made with tomatoes and Mozzarella cheese, topped with Cerignola olives, ripe vine
-                          corn syrup solids, sodium caseinate (a milk derivative), mono and diglycerides, potassium bromate and enzymes.</p>
-                        
-                        </div>
-                    </div>
-                    <div class="item">
-                         
-                        <div class="carousel-caption">
-                        <h2>Weekend time! <span class="label label-default">New</span></h2>
-            
-            <p>Featuring mouthwatering combinations Our salad recipes are a delicious and healthy use different ingredients and seasoning to make one of the most joyous healthy salad recipes. All for just $19.99 per person. </p>
-                       
-                        </div>
-                    </div>
-                    <div class="item active">
-                        
-                        <div class="carousel-caption">
-                         <h2 class="media-heading">Clark Frasier</h2>
-                        <h4>Executive Chef</h4>
-                        <p>Award winning three-star Michelin chef After being nominated six times, divyanshu and Clark Frasier won the James Beard Award for Best Chef in the Northeast in 2010.
-                         </p>
-    
-                        </div>
-                    </div>
-                </div>
-                <!-- Controls -->
-                <a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>  
-                <div class="btn-group" id="carouselButtons">
-                    <button class="btn btn-default btn-xs" id="carousel-pause">
-                	    <span class="glyphicon glyphicon-pause" aria-hidden="true"></span>
-                    </button>
-                    <button class="btn btn-default btn-xs" id="carousel-play">
-                	    <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
-                    </button>
-                </div>
-        </div> 
-          
-    </div>
-    </div>
-      <div class="row row-content">
-         <div class="col-xs-12 col-sm-3 col-sm-push-9">
-            <p style="padding:20px;"></p>
-            <h3 align="center">Our Christmas Special!</h3>
-         </div>
-         <div class="col-xs-12 col-sm-9 col-sm-pull-3">
-            <div class="media">
+            <div class="col-xs-12 col-sm-9 col-sm-pull-3">
+                <div class="media">
                     <div class="media-left media-middle">
                         <a href="#">
-                        <img class="media-object img-thumbnail"
-                         src="img\uthappizza.png" alt="Uthappizza"
-                             width="180px" height="150px">
+                            <img class="media-object img-thumbnail" src="img\uthappizza.png" alt="Uthappizza" width="180px" height="150px">
                         </a>
                     </div>
                     <div class="media-body">
-                         <h2> Twin Cities pizza  <span class="label label-danger" style="background:black; border-radius:20px; font-size:18px; color:white">Hot</span> <span class="badge">$4.99</span></h2>
-                        <p>Authentic Twin Cities pizzas (pizza Twin Cities) are typically made with tomatoes and Mozzarella cheese, topped with Cerignola olives, ripe vine
-                          corn syrup solids, sodium caseinate (a milk derivative), mono and diglycerides, potassium bromate and enzymes.</p>
-                       
+                        <h2> Twin Cities pizza  <span class="label label-danger" style="background:black; border-radius:20px; font-size:18px; color:white">Hot</span> <span class="badge">$4.99</span></h2>
+                        <p>Authentic Twin Cities pizzas (pizza Twin Cities) are typically made with tomatoes and Mozzarella cheese, topped with Cerignola olives, ripe vine corn syrup solids, sodium caseinate (a milk derivative), mono and diglycerides, potassium bromate and enzymes.</p>
+
                     </div>
                 </div>
-         </div>
-      </div>
+            </div>
+        </div>
 
 
-      <div class="row row-content">
-         <div class="col-xs-12 col-sm-3">
-            <p style="padding:20px;"></p>
-            <h3 align="center">This Month's Promotions</h3>
-         </div>
-         <div class="col-xs-12 col-sm-9">
-             <div class="media">
-             <div class="media-body">
-            <h2>Weekend time! <span class="label label-default">New</span></h2>
-            <p>Featuring mouthwatering combinations Our salad recipes are a delicious and healthy use different ingredients and seasoning to make one of the most joyous healthy salad recipes. All for just $19.99 per person. </p>
-             
-                 </div> 
-                 <div class="media-left media-middle">
-                        <a href="#">
-                        <img class="media-object img-thumbnail"
-                         src="img/buffet.png" alt="Uthappizza"
-                             width="150px" height="150px">
-                        </a>
+        <div class="row row-content">
+            <div class="col-xs-12 col-sm-3">
+                <p style="padding:20px;"></p>
+                <h3 align="center">This Month's Promotions</h3>
+            </div>
+            <div class="col-xs-12 col-sm-9">
+                <div class="media">
+                    <div class="media-body">
+                        <h2>Weekend time! <span class="label label-default">New</span></h2>
+                        <p>Featuring mouthwatering combinations Our salad recipes are a delicious and healthy use different ingredients and seasoning to make one of the most joyous healthy salad recipes. All for just $19.99 per person. </p>
+
                     </div>
-             </div>         
-         </div>
-      </div>
-
-      <div class="row row-content">
-         <div class="col-xs-12 col-sm-3 col-sm-push-9">
-            <p style="padding:20px;"></p>
-            <h3 align="center">Meet our Specialists!</h3>
-         </div>
-         <div class="col-xs-12 col-sm-9 col-sm-pull-3">
-             <div class="media">
                     <div class="media-left media-middle">
                         <a href="#">
-                        <img class="media-object img-thumbnail"
-                         src="img\anonymous.jpg" alt="Alberto Somayya" width="125x" height="150px" >
+                            <img class="media-object img-thumbnail" src="img/buffet.png" alt="Uthappizza" width="150px" height="150px">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-content">
+            <div class="col-xs-12 col-sm-3 col-sm-push-9">
+                <p style="padding:20px;"></p>
+                <h3 align="center">Meet our Specialists!</h3>
+            </div>
+            <div class="col-xs-12 col-sm-9 col-sm-pull-3">
+                <div class="media">
+                    <div class="media-left media-middle">
+                        <a href="#">
+                            <img class="media-object img-thumbnail" src="img\anonymous.jpg" alt="Alberto Somayya" width="125x" height="150px">
                         </a>
                     </div>
                     <div class="media-body">
                         <h2 class="media-heading">Clark Frasier </h2>
                         <h4>Executive Chef</h4>
                         <p>Award winning three-star Michelin chef After being nominated six times, jamie oliver and Clark Frasier won the James Beard Award for Best Chef in the Northeast in 2010.
-                         </p>
-                       
+                        </p>
+
                     </div>
                 </div>
 
-         </div>
-      </div>
-      <!--
+            </div>
+        </div>
+        <!--
        <div class="row row-content">
            <div class="col-sm-3 col-xs-12">
                <p style="padding:20px;"></p>
@@ -425,63 +414,73 @@
             </form>
             </div>
          </div>
-             !-->        
-       </div>
+             !-->
+    </div>
 
-   <footer class="row-footer">
-      <div class="container">
-         <div class="row">
-            <div class="col-sm-2 col-sm-offset-1 col-xs-offset-1 col-xs-5 col-lg-2 col-lg-offset-1">
-               <h5>Links</h5>
-               <ul class="list-unstyled">
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="aboutus.html">About</a></li>
-                  <li><a href="#">Menu</a></li>
-                  <li><a href="contact.html">Contact</a></li>
-               </ul>
-            </div>
-            <div class="col-md-5 col-sm-5 col-lg-5 col-xs-6">
-               <h5>Our Address</h5>
-               <address>
+    <footer class="row-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2 col-sm-offset-1 col-xs-offset-1 col-xs-5 col-lg-2 col-lg-offset-1">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a>
+                        </li>
+                        <li><a href="aboutus.html">About</a>
+                        </li>
+                        <li><a href="#">Menu</a>
+                        </li>
+                        <li><a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-5 col-sm-5 col-lg-5 col-xs-6">
+                    <h5>Our Address</h5>
+                    <address>
                        Via Ponte Nuovo,99 <br>
-		              37121 Verona<br>
-		              Los Angeles<br>
+                  37121 Verona<br>
+                  Los Angeles<br>
                       <br>
                       
                       <i class="fa fa-fax"></i>: +800 3856 439<br>
                        <i class="fa fa-envelope-o"></i>:<a href="mailto:divyanshu.r46956@gmail.com"> divyanshu.r46956@gmail.com</a>
                    </address>
-            </div>
-            <div class="col-md-4 col-sm-4 col-lg-4 col-xs-12">
-               <div class="nav navbar-nav" style="padding: 40px 10px;">
-                 <ul class="list-inline social-buttons">
-                  <li id="special"><a class="btn btn-social-icon btn-google-plus" href="##"><i class="fa fa-google-plus"></i></a></li>
-                  <li><a class="btn btn-social-icon btn-facebook" href="##"><i class="fa fa-facebook"></i></a></li>
-                  <li><a class="btn btn-social-icon btn-linkedin" href="##"><i class="fa fa-linkedin"></i></a></li>
-                 <li> <a class="btn btn-social-icon btn-twitter" href="##"><i class="fa fa-twitter"></i></a></li>
-                  <li><a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a></li>
-                    </ul>
-               </div>
-            </div>
-               
+                </div>
+                <div class="col-md-4 col-sm-4 col-lg-4 col-xs-12">
+                    <div class="nav navbar-nav" style="padding: 40px 10px;">
+                        <ul class="list-inline social-buttons">
+                            <li id="special"><a class="btn btn-social-icon btn-google-plus" href="##"><i class="fa fa-google-plus"></i></a>
+                            </li>
+                            <li><a class="btn btn-social-icon btn-facebook" href="##"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a class="btn btn-social-icon btn-linkedin" href="##"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                            <li> <a class="btn btn-social-icon btn-twitter" href="##"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
             </div>
             <div class="col-md-12 col-xs-12">
-            <p style="padding:10px;"></p>
-            <p align="center" style="color:grey">© Copyright 2015 Divyanshu Rawat</p>
-         </div>
-         </div>
-      </div>
-   </footer>
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-     <script src="js/bootstrap.min.js"></script>
-     
-     <script>
-         $(document).ready(function(){
-            $("#mycarousel").carousel( { interval: 2000 } );
-                          $("#carousel-pause").click(function(){
+                <p style="padding:10px;"></p>
+                <p align="center" style="color:grey">© Copyright 2015 Divyanshu Rawat</p>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+
+    <script>
+        $(document).ready(function() {
+            $("#mycarousel").carousel({
+                interval: 2000
+            });
+            $("#carousel-pause").click(function() {
                 $("#mycarousel").carousel('pause');
             });
-                        $("#carousel-play").click(function(){
+            $("#carousel-play").click(function() {
                 $("#mycarousel").carousel('cycle');
             });
         });

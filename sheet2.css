@@ -1,5 +1,4 @@
-container{    border: 2px solid blue !important;}
-row{    border: 1px solid red !important;}
+
 .row-header
 {
     margin: 0px auto;
@@ -28,10 +27,12 @@ p
 .jumbotron
 {
     height: 900px;
-    padding: 70px 30px 70px 30px;
-    margin: 0px auto;
     background-image: url(img/pic.jpg);
-    color: floralwhite;    
+    color: floralwhite;  
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;  
+    margin-top: -40px; 
 }
 
 address
@@ -46,6 +47,10 @@ body{
     z-index:0;
 }
 
+.navbar
+{
+    margin-bottom: 0px !important;
+}
 .navbar-inverse {
      background:black;
 }
@@ -153,7 +158,7 @@ strong
     font-weight: bold;
     opacity: .7;
     position: relative;
-    top:250px;
+    top:50%;
 }
 #button:hover
 {
