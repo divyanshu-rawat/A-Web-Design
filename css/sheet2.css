@@ -1,5 +1,4 @@
-container{    border: 2px solid blue !important;}
-row{    border: 1px solid red !important;}
+
 .row-header
 {
     margin: 0px auto;
@@ -12,28 +11,32 @@ row{    border: 1px solid red !important;}
     border-bottom: 1px ridge;
     min-height:300px;
 }
+p
+{
+    font-style: italic;
+}
+
+.padd_margin
+{
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-right: 0px;
+    margin-left: 0px;
+}
 
 .row-footer
 {
-    background-color: #AfAfAf;
+    background-color:black;
     margin: 0px auto;
     padding: 20px 0px 20px 0px;
 }
 
 
-.jumbotron
-{
-    padding: 70px 30px 70px 30px;
-    margin: 0px auto;
-    background: #7986CB;
-    color: floralwhite;    
-}
-
 address
 {
         font-size: 90%;
         margin: 0px;
-        color:#0f0f0f;
+        color:grey;
 }
 
 body{
@@ -41,8 +44,12 @@ body{
     z-index:0;
 }
 
+.navbar
+{
+    margin-bottom: 0px !important;
+}
 .navbar-inverse {
-     background: #303F9F;
+     background:black;
 }
 
 .navbar-inverse .navbar-nav > .active > a
@@ -72,26 +79,26 @@ body{
 }
 .navbar-inverse .navbar-nav .open .dropdown-menu> li >a
 {
-        background-color:#1a237e;
-        color:deepskyblue;
+        background-color:black;
+        color:white;
 }
 
 .navbar-inverse .navbar-nav > .open > a:hover
 {
     color: #fff;
-    background: #1a237e;
+    background: black;
 }
 .navbar-inverse .navbar-nav .open .dropdown-menu> li> a:hover {
     color:#000000;
 }
 .navbar-inverse .navbar-nav .open .dropdown-menu .dropdown-header
 {
-    color: black;
+    color: grey;
     font-weight: bolder;
 }
 .navbar-inverse .navbar-nav .open .dropdown-menu
 {
-    background-color:#1a237e;
+    background-color:black;
 }
 .breadcrumb > .act > a
 {
@@ -100,12 +107,13 @@ body{
 .breadcrumb
 {
     font-weight: bold;
+    margin-top:10px;
 }
 .label-default
 {
     font-size: 18px;
-    background-color: red;
-    color:black;
+    background-color: black;
+    color:red;
     border-radius: 30px;
 }
 strong
@@ -143,22 +151,35 @@ strong
 }
 #button
 {
-    color: grey;
+    color: white;
     font-weight: bold;
+    opacity: .7;
+    position: relative;
+    top:50%;
 }
-
+#button:hover
+{
+    background: red;
+}
+h5
+{
+    color: grey;
+        
+}
 
 .carousel {
-    background:-webkit-linear-gradient(right,#1A237E,indigo,midnightblue);
+    background:-webkit-linear-gradient(left,indigo,#000099,#000099,indigo);
+    background-image: url(../img/imp.jpg);
     border-radius: 5px;
+    
 }
 .carousel .item {
-  height: 300px;
+  height: 350px;
 }
 .item img {
     padding: 10px;
     margin: auto;
-    border-radius: 25px;
+    border-radius: 20px;
     position: absolute;
     top: 0;
     left: 0;
@@ -170,4 +191,63 @@ strong
     right:0px;
     position: absolute;
     bottom: 0px;
+}
+
+ul.social-buttons {
+  margin-bottom: 0
+}
+
+
+ul.social-buttons li a {
+  display: block;
+  height: 40px;
+  width: 40px;
+  border:2px solid black; 
+  border-radius: 100%;
+  font-size: 15px;
+  line-height: 40px;
+  color: #ffffff;
+  outline: 0;
+  -webkit-transition: transform 2s,background 2s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+  background-color: #fed136;
+}
+ul.social-buttons li a:hover
+{
+    transform: rotate(360deg);
+    background: #fed136;
+}
+
+
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+  outline: 0
+}
+
+
+#special >a
+{
+    background: red;
+}
+
+#special >a:hover
+{
+    background: #fed136;    
+}
+
+#sample
+{
+    color:black;
+    font-weight:bold;
+    font-style:italic;
+    opacity:.8;
+    position:relative;
+    top:550px;
+
 }
