@@ -1,15 +1,22 @@
+## Demo 
 
->A responsive :pizza:  theme based on restaurant :ice_cream:  !:tropical_drink: !
+> [Live Demo Here !](https://awebdesign.herokuapp.com/)
 
-### Demo (Deployed Branch CLoud)
+##
 
-> https://awebdesign.herokuapp.com/
+### For Any Query Ping Me
+
+[![Join the chat](https://img.shields.io/badge/gitter-join%20chat%20%E2%86%92-brightgreen.svg)](https://gitter.im/divyanshu001)
+
+##
 
 ### Description 
 
 * Set up, designed and style a web page using Front-End Web UI Frameworks and Tools.
 
 * PageSpeed Insights(web performance tools at Google) Score - 91/100
+
+##
 
 ### Installation Instructions :grey_exclamation:
 
@@ -19,15 +26,34 @@
 
 * launch index.html file :exclamation:
 
+##
+
 ### Package Manager Used 
 
 * Bower — A package manager for the web.
+
+##
 
 ### Dependencies
 
 * "bootstrap": "~3.3.7" "jquery": "2.1.4",
   "font-awesome": "~4.7.0",  
 
+##
+
+### Contributing
+
+1. Create your **_branch_**: `git checkout -b my-new-feature`
+
+2. **_Commit_** your changes: `git commit -m 'Add some feature'`
+
+3. **_Push_** to the branch: `git push origin my-new-feature`
+
+4. Send a **Pull Request**
+
+5. **_Enjoy!_**
+
+##
 
 ### Example
 
