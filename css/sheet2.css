@@ -4,31 +4,32 @@
     margin: 0px auto;
     padding: 0px auto;
 }
-.row-content
-{
-    margin: 0px auto;
-    padding: 50px 0px 50px 0px;
-    border-bottom: 1px ridge;
-    min-height:300px;
-}
 p
 {
     font-style: italic;
 }
 
-.padd_margin
+.padding_o
 {
-    padding-left: 0%;
-    padding-right: 0%;
-    margin-right: 0px;
-    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
-.row-footer
+.margin-top-bottom
 {
-    background-color:black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.foo
+{
+    background-color:black !important;
     margin: 0px auto;
     padding: 20px 0px 20px 0px;
+}
+
+.margin-section
+{
+    margin-top:5%;
 }
 
 
@@ -42,6 +43,7 @@ address
 body{
     padding:50px 0px 0px 0px;
     z-index:0;
+    background: white;
 }
 
 .navbar
@@ -168,9 +170,10 @@ h5
 }
 
 .carousel {
-    background:-webkit-linear-gradient(left,indigo,#000099,#000099,indigo);
     background-image: url(../img/imp.jpg);
     border-radius: 5px;
+    background-repeat:no-repeat;
+    background-position:center;
     
 }
 .carousel .item {
