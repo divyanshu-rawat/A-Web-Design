@@ -1,0 +1,256 @@
+
+.row-header
+{
+    margin: 0px auto;
+    padding: 0px auto;
+}
+p
+{
+    font-style: italic;
+}
+
+.padding_o
+{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.margin-top-bottom
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.foo
+{
+    background-color:black !important;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.margin-section
+{
+    margin-top:5%;
+}
+
+
+address
+{
+        font-size: 90%;
+        margin: 0px;
+        color:grey;
+}
+
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+    background: white;
+}
+
+.navbar
+{
+    margin-bottom: 0px !important;
+}
+.navbar-inverse {
+     background:black;
+}
+
+.navbar-inverse .navbar-nav > .active > a
+{
+    color: #fff;
+    background: #1a237e;
+}
+.navbar-inverse .navbar-nav > .active > a:hover
+{
+    color: #fff;
+    background: #1a237e;
+}
+.navbar-inverse .navbar-nav > .active > a:focus
+{
+    color: #fff;
+    background: #1a237e;
+}
+.navbar-inverse .navbar-nav > .open > a:hover
+{
+    color: #fff;
+    background: #1a237e;
+}
+.navbar-inverse .navbar-nav > .open > a
+{
+    color: #fff;
+    background: #1a237e;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu> li >a
+{
+        background-color:black;
+        color:white;
+}
+
+.navbar-inverse .navbar-nav > .open > a:hover
+{
+    color: #fff;
+    background: black;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu> li> a:hover {
+    color:#000000;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu .dropdown-header
+{
+    color: grey;
+    font-weight: bolder;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu
+{
+    background-color:black;
+}
+.breadcrumb > .act > a
+{
+    color: grey;
+}
+.breadcrumb
+{
+    font-weight: bold;
+    margin-top:10px;
+}
+.label-default
+{
+    font-size: 18px;
+    background-color: black;
+    color:red;
+    border-radius: 30px;
+}
+strong
+{
+    color: black;
+}
+.alert-warning > a
+{
+    color: black;
+    text-decoration: none;
+}
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+
+.affix 
+{
+    top:180px;
+}
+
+
+#myScrollspy ul li > a
+{
+    opacity: .6;
+    color: white;
+    background: #1a237e;
+    border-radius: 50px;
+    font-weight: bold;
+    
+}
+#button
+{
+    color: white;
+    font-weight: bold;
+    opacity: .7;
+    position: relative;
+    top:50%;
+}
+#button:hover
+{
+    background: red;
+}
+h5
+{
+    color: grey;
+        
+}
+
+.carousel {
+    background-image: url(../img/imp.jpg);
+    border-radius: 5px;
+    background-repeat:no-repeat;
+    background-position:center;
+    
+}
+.carousel .item {
+  height: 350px;
+}
+.item img {
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 0px;
+}
+
+
+#carouselButtons {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+}
+
+ul.social-buttons {
+  margin-bottom: 0
+}
+
+
+ul.social-buttons li a {
+  display: block;
+  height: 40px;
+  width: 40px;
+  border:2px solid black; 
+  border-radius: 100%;
+  font-size: 15px;
+  line-height: 40px;
+  color: #ffffff;
+  outline: 0;
+  -webkit-transition: transform 2s,background 2s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+  background-color: #fed136;
+}
+ul.social-buttons li a:hover
+{
+    transform: rotate(360deg);
+    background: #fed136;
+}
+
+
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+  outline: 0
+}
+
+
+#special >a
+{
+    background: red;
+}
+
+#special >a:hover
+{
+    background: #fed136;    
+}
+
+#sample
+{
+    color:black;
+    font-weight:bold;
+    font-style:italic;
+    opacity:.8;
+    position:relative;
+    top:550px;
+
+}

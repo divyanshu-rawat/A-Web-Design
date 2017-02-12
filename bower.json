@@ -1,0 +1,22 @@
+{
+  "name": "A_template_design",
+  "homepage": "https://github.com/divyanshu-rawat/A_web_design-",
+  "authors": [
+    "divyanshu <divyanshu.r46956@gmail.com>"
+  ],
+  "description": "A test application for learning Html,Css,Js !",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "font-awesome": "~4.5.0"
+  }
+}
