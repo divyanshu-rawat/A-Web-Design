@@ -91,7 +91,7 @@ body{
     background: black;
 }
 .navbar-inverse .navbar-nav .open .dropdown-menu> li> a:hover {
-    color:#000000;
+    color:#999999;
 }
 .navbar-inverse .navbar-nav .open .dropdown-menu .dropdown-header
 {
@@ -151,6 +151,16 @@ strong
     font-weight: bold;
     
 }
+#myScrollspy ul li > a:hover
+{
+    opacity: .9;
+    color: white;
+    background: #040615;
+    border-radius: 50px;
+    font-weight: bold;
+    
+}
+
 #button
 {
     color: white;
